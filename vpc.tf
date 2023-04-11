@@ -2,8 +2,8 @@ module "network" {
   source  = "app.terraform.io/TerraF-LAb/network/google"
   version = "3.4.0"
 
-  project_id = project
-  network_name = defaultt
+  project_id = var.project
+  network_name = "defaultt"
   subnets = [
   {
     subnet_name   = "gaurav-subnet"
