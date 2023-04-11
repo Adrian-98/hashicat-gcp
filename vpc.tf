@@ -1,7 +1,7 @@
 module "network" {
   source  = "app.terraform.io/TerraF-LAb/network/google"
-  version = "0.0.0"
-  # insert required variables here
+  version = "3.4.0"
+
   subnets = [
   {
     subnet_name   = "gaurav-subnet"
